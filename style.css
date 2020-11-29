@@ -12,10 +12,13 @@ body {
 }
 
 .main-menu {
-  margin-top: absolute;
-  padding: absolute;
+  margin-top: 0;
+  padding: 0;
   list-style: none;
   border: 1px solid #e5e5e5;
+  width: 350px;
+  color: white;
+
 }
 
 .main-menu > li {
@@ -30,6 +33,7 @@ body {
   padding: 8px 10px;
   color: #0088cc;
   border-left: 1px solid #e5e5e5;
+  text-decoration: none;
 }
 
 .main-menu a:hover {
